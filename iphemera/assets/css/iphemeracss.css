@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: salmon;
+	font-family: 'Kirang Haerang', cursive;
+}
+h1 {
+  color: white;
+  font-size: 5vw;
+  padding-left: 10vw;
+}
+
+.canvas {
+	width: 1280px;
+	margin: 10px auto;
+ 	padding: 25px;
+	background: white;
+	position: relative;
+  	display: grid;
+  	grid-template-columns: 300px 300px 300px 300px;
+ 	grid-auto-rows: auto;
+ 	 grid-row-gap: 10px;
+  	grid-column-gap: 10px;
+  	border-radius: 25px;
+ }
+
+img {
+	display: block;
+	filter: blur(15px);
+}
+
+
+img:hover {
+  display: block;
+  filter: blur(0px);
+  }
+
+.container { 
+  position: relative;
+  width: 50%;
+  display: inline-block;
+
+}
+
+.container:hover .overlay {
+  opacity: 0;
+}
+
+.container:hover .image {
+   filter: blur(0px);
+   }
+
+
+.image {
+  display: block;
+  width: 300px;
+  height: auto;
+  transition: 0.5s ease-in-out
+  }
+
+.image:hover {
+  opacity: 1;
+ -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+  filter: blur(0px);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: transparent;
+  color: transparent;
+
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+}
+
+.white {
+  color: white;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1280px) {
+.canvas {
+  width: 1180px;
+  margin: 10px auto;
+  padding: 25px;
+  grid-template-columns: 280px 280px 280px 280px;
+  border-radius: 5px;
+ }
+.overlay {
+  width: 280px;
+}
+.image {
+   width: 280px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+.canvas {
+  width: 960px;
+  margin: 10px auto;
+  padding: 25px;
+  grid-template-columns: 300px 300px 300px;
+  border-radius: 5px;
+ }
+.overlay {
+  width: 300px;
+}
+.image {
+   width: 300px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+.canvas {
+  width: 670px;
+  margin: 10px auto;
+  padding: 25px;
+  grid-template-columns: 300px 300px;
+  border-radius: 5px;
+ }
+.overlay {
+  width: 300px;
+}
+.image {
+   width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.canvas {
+  width: 550px;
+  margin: 10px auto;
+  padding: 25px;
+  grid-template-columns: 250px 250px;
+  border-radius: 5px;
+ }
+.overlay {
+  width: 250px;
+}
+.image {
+   width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.canvas {
+  width: 360px;
+  margin: 10px auto;
+  padding: 25px;
+  grid-template-columns: 300px;
+  border-radius: 5px;
+ }
+.overlay {
+  width: 300px;
+}
+.image {
+   width: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+.canvas {
+  width: 280px;
+  margin: 10px auto;
+  padding: 5px;
+  grid-template-columns: 250px;
+  border-radius: 5px;
+ }
+.overlay {
+  width: 250px;
+}
+.image {
+   width: 250px;
+  }
+}
