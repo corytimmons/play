@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 181.9 599.8" style="enable-background:new 0 0 181.9 599.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#000000;stroke-width:4;}
+	.st2{fill:none;stroke:#000000;stroke-width:3.642;}
+	.st3{fill:none;stroke:#000000;stroke-width:3.285;}
+	.st4{fill:none;stroke:#000000;stroke-width:2.928;}
+	.st5{fill:none;stroke:#000000;stroke-width:2.571;}
+	.st6{fill:none;stroke:#000000;stroke-width:2.214;}
+	.st7{fill:none;stroke:#000000;stroke-width:1.857;}
+	.st8{fill:none;stroke:#000000;stroke-width:1.5;}
+	.st9{fill:#FFF2ED;}
+	.st10{fill:#3981C3;}
+	.st11{fill:#9FA1A4;}
+	.st12{fill:#FFFFFF;}
+	.st13{fill:none;stroke:#2E3192;stroke-miterlimit:10;}
+	.st14{fill:url(#Undulating_Coarse_Lines);}
+</style>
+<pattern  x="-305" y="-12.2" width="60.8" height="72" patternUnits="userSpaceOnUse" id="Undulating_Coarse_Lines" viewBox="2 -72 60.8 72" style="overflow:visible;">
+	<g>
+		<rect x="2" y="-72" class="st0" width="60.8" height="72"/>
+		<g>
+			<line class="st1" x1="62.8" y1="-72" x2="62.8" y2="0"/>
+		</g>
+		<g>
+			<line class="st1" x1="2" y1="-72" x2="2" y2="0"/>
+			<line class="st2" x1="6.3" y1="-72" x2="6.3" y2="0"/>
+			<line class="st3" x1="10.7" y1="-72" x2="10.7" y2="0"/>
+			<line class="st4" x1="15" y1="-72" x2="15" y2="0"/>
+			<line class="st5" x1="19.4" y1="-72" x2="19.4" y2="0"/>
+			<line class="st6" x1="23.7" y1="-72" x2="23.7" y2="0"/>
+			<line class="st7" x1="28" y1="-72" x2="28" y2="0"/>
+			<line class="st1" x1="62.8" y1="-72" x2="62.8" y2="0"/>
+			<line class="st2" x1="58.4" y1="-72" x2="58.4" y2="0"/>
+			<line class="st3" x1="54.1" y1="-72" x2="54.1" y2="0"/>
+			<line class="st4" x1="49.7" y1="-72" x2="49.7" y2="0"/>
+			<line class="st5" x1="45.4" y1="-72" x2="45.4" y2="0"/>
+			<line class="st6" x1="41.1" y1="-72" x2="41.1" y2="0"/>
+			<line class="st7" x1="36.7" y1="-72" x2="36.7" y2="0"/>
+			<line class="st8" x1="32.4" y1="-72" x2="32.4" y2="0"/>
+		</g>
+		<g>
+			<line class="st1" x1="2" y1="-72" x2="2" y2="0"/>
+		</g>
+	</g>
+</pattern>
+<polygon class="st9" points="0,599.8 181.9,599.8 167.5,154.3 12.5,154.3 "/>
+<path class="st10" d="M88.2,32.7L5.3,151.3c0,0,8.1,7.3,24.3,14c26.9,11.2,76.1,20.5,147.1-9L88.2,32.7z"/>
+<path class="st11" d="M53.6,284.9c0,0,23.1,9,40.7,3.5v-47.2c0,0-9.5-33.7-23.6-24.6s-12.6,20.1-12.6,20.1L53.6,284.9z"/>
+<path class="st12" d="M43.6,283.4l6.5-5l3.9,2.5l-0.4,4c0,0,13.6,10.1,40.7,3.5l3-3.9h7.5l-3,9.3c0,0-44.2,13.6-58.3-7.7"/>
+<polyline class="st13" points="88.2,32.7 88.2,16.3 88.2,11.6 88.2,0 "/>
+<line class="st13" x1="71.2" y1="10.1" x2="104.9" y2="10.1"/>
+<line class="st13" x1="80.3" y1="16.3" x2="94.3" y2="6.5"/>
+<path class="st14" d="M88.2,32.7L5.3,151.3c0,0,8.1,7.3,24.3,14c26.9,11.2,76.1,20.5,147.1-9L88.2,32.7z"/>
+</svg>

@@ -1,0 +1,123 @@
+body {
+    background-image: radial-gradient(dimgrey, black) ;
+	width: 75vw;
+	height: 75vh;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2vw;
+	margin-top: 10vw;
+    padding: 10vw;
+	color: white;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+
+a {
+	text-decoration: none;
+	color: oldlace;
+}
+
+a:hover {
+	color: lavenderblush;
+}
+.left {
+	grid-column-start:1;
+    grid-row-start:1;
+}
+.right {
+    align-content: right;
+	grid-column-start: 3;
+    grid-row-start: 1;
+}
+.double {
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
+.story {
+	width: 30vw;
+}
+
+.image {
+	padding-top:10vh;
+	width: 40vw;
+}
+
+.pathway {
+    font-size: 2.5vw;
+}
+
+.tooltip {
+    position: absolute;
+    color: transparent;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 25vw;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    border-radius: 5vw;
+    padding: 5vw ;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -6vw;
+    align-content: center;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin-left: -2.5vw;
+    border-width: 2.5vw;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#ffgm-black {
+        border: 2vw lightcyan double;
+    background: cyan;
+    border-radius: 50%;
+    padding: 2vw;
+    position: fixed;
+    filter: blur(5px);
+    box-shadow: 1vw 1vw 17vw 8vw cyan;
+    bottom: -1vw;
+    left: 5vw;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    opacity: .6;
+    z-index: 1;
+      animation: circular 10s linear infinite alternate;
+}
+
+@keyframes circular {
+  0%,  {
+    transform: translate(-1vw, 1vw);
+  }
+  
+ 25% {
+    transform: translate(1vw, 1vw);
+  }
+  
+  50% {
+    transform: translate(1vw, -1vw);
+  }
+
+  75% {
+    transform: translate(1vw, 1vw);
+  }
+
+}
