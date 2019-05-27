@@ -11,12 +11,19 @@ body {
 	grid-template-columns: auto auto auto;
     position: relative;
 }
+#hedgefences {
+    background-image: url('./svg/hedgefences.svg');
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
 h1 {
-    font-size: 10vh;
+    font-size: 10vw;
+    z-index: 100;
 }
 h2 {
     font-style: italic;
-    font-size: 8vh;
+    font-size: 8vw;
 }
                     #white {
                         background-image: radial-gradient(white, ghostwhite);
@@ -69,23 +76,23 @@ a:hover {
     font-size: 10vw;
     transform: rotate(2deg);
     color: red;
-    top:-10vw;
+    top:-100vw;
 }
 .consentc {
     font-size: 25vw;
     transform: rotate(112deg);
     color: black;
-    top:-10vw;
+    top:-100vw;
 }
 .consentd {
     font-size: 35vw;
     transform: rotate(72deg);
-    top:-10vw;
+    top:-100vw;
 }
 .consente {
     font-size: 1.5vw;
     transform: rotate(-12deg);
-    top:-10vw;
+    top:-100vw;
 }
 .consentf {
     font-size: 11vw;
@@ -139,6 +146,7 @@ a:hover {
     position: relative;
 	grid-column-start:1;
     grid-row-start:1;
+    z-index: 999;
 }
 .right {
     position: relative;
@@ -213,7 +221,7 @@ a:hover {
 }
 
 #ffgm {
-        border: 2vw lightcyan double;
+    border: 2vw lightcyan double;
     background: cyan;
     border-radius: 50%;
     padding: 2vw;
@@ -338,4 +346,8 @@ a:hover {
 
 #rose {
     height: 75vh;
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
