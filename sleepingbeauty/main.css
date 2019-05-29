@@ -70,63 +70,132 @@ a:hover {
     font-size: 15vw;
     transform: rotate(12deg);
     top:-10vw;
-}
+    cursor: -webkit-grab; 
+    cursor: grab;
+ }
 
 .consentb {
+    position: absolute;
     font-size: 10vw;
     transform: rotate(2deg);
     color: red;
-    top:-100vw;
+    top:0;
+    display: none;
+        cursor: -webkit-grab; 
+    cursor: grab;
 }
 .consentc {
+    position: absolute;
     font-size: 25vw;
     transform: rotate(112deg);
     color: black;
-    top:-100vw;
+    top:0;
+    display: none;
+        cursor: -webkit-grabbing; 
+    cursor: grabbing;
 }
 .consentd {
+    position: absolute;
     font-size: 35vw;
     transform: rotate(72deg);
-    top:-100vw;
+    top:10vw;
+    left:-25vw;
+    color: orangered;
+    display: none;
+    cursor: -webkit-grab; 
+    cursor: grab;
 }
 .consente {
-    font-size: 1.5vw;
+    position: absolute;
+    font-size: 3.5vw;
     transform: rotate(-12deg);
-    top:-100vw;
+    top:25vw;
+    display: none;
+    color: cyan;
+    cursor: -webkit-grabbing; 
+    cursor: grabbing;
 }
 .consentf {
+    position: absolute;
     font-size: 11vw;
     transform: rotate(72deg);
-    top:-10vw;
+    top:0;
+    display: none;
+    color: white;
+    cursor: -webkit-grab; 
+    cursor: grab;
 }
 .consentg {
+    position: absolute;
     font-size: 5vw;
     transform: rotate(120deg);
-    top:-10vw;
-}.consenth {
-    font-size: 10vw;
-    color: white;
-    transform: rotate(142deg);
-    top:-10vw;
-}.consenti {
+    top:0;
+    color:darkgrey;
+    display: none;
+    cursor: -webkit-grabbing; 
+    cursor: grabbing;
+}
+.consenth {
+    position: absolute;
+    font-size: 50vw;
+    font-weight:bold;
+    transform: rotate(14deg);
+    top:0;
+    display: none;
+    color:yellow;
+        cursor: -webkit-grab; 
+    cursor: grab;
+}
+.consenti {
+    position: absolute;
     font-size: 7vw;
     transform: rotate(162deg);
-    top:-10vw;
-}.consentj {
+    top:0;
+    display: none;
+    color: blue;
+        cursor: -webkit-grabbing; 
+    cursor: grabbing;
+}
+.consentj {
+    position: absolute;
     font-size: 14vw;
     color: hotpink;
     transform: rotate(312deg);
-    top:-10vw;
+    top:0;
+    color:chartreuse;
+    display: none;
+        cursor: -webkit-grab; 
+    cursor: grab;
 }
 .consentk {
+    position: absolute;
     font-size: 10vw;
     transform: rotate(32deg);
-    top:-10vw;
+    top:0;
+    display: none;
+    color:orchid;
+        cursor: -webkit-grabbing; 
+    cursor: grabbing;
 }
 .consentl {
+    position: absolute;
     font-size: 20vw;
     transform: rotate(2deg);
-    top:-10vw;
+    top: 0;
+    display: none;
+    color:red;
+        cursor: -webkit-grab; 
+    cursor: grab;
+}
+.consentm {
+    position: absolute;
+    font-size: 30vw;
+    transform: rotate(2deg);
+    top:0;
+    left:-10vw;
+    color:black;
+    font-weight:bolder;
+    display: none;
 }
 .hoverblack {
     color: transparent;
