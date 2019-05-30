@@ -12,7 +12,7 @@ body {
     position: relative;
 }
 #hedgefences {
-    background-image: url('./svg/hedgefences.svg');
+    background-image: url('./SVG/hedgefences.svg');
     font-size: 2.5vw;
     font-weight: bold;
 }
@@ -161,7 +161,7 @@ a:hover {
     position: absolute;
     font-size: 14vw;
     color: hotpink;
-    transform: rotate(12deg);
+    transform: rotate(312deg);
     top: -10vw;
     color:chartreuse;
     display: none;
