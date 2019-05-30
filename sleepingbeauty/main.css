@@ -88,7 +88,7 @@ a:hover {
     position: absolute;
     font-size: 25vw;
     transform: rotate(112deg);
-    color: black;
+    color: goldenrod;
     top:0;
     display: none;
         cursor: -webkit-grabbing; 
@@ -96,7 +96,7 @@ a:hover {
 }
 .consentd {
     position: absolute;
-    font-size: 35vw;
+    font-size: 15vw;
     transform: rotate(72deg);
     top:10vw;
     left:-25vw;
@@ -107,9 +107,10 @@ a:hover {
 }
 .consente {
     position: absolute;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     transform: rotate(-12deg);
-    top:25vw;
+    top:15vw;
+    right:0;
     display: none;
     color: cyan;
     cursor: -webkit-grabbing; 
@@ -130,7 +131,7 @@ a:hover {
     font-size: 5vw;
     transform: rotate(120deg);
     top:0;
-    color:darkgrey;
+    color:purple;
     display: none;
     cursor: -webkit-grabbing; 
     cursor: grabbing;
@@ -160,8 +161,8 @@ a:hover {
     position: absolute;
     font-size: 14vw;
     color: hotpink;
-    transform: rotate(312deg);
-    top:0;
+    transform: rotate(12deg);
+    top: -10vw;
     color:chartreuse;
     display: none;
         cursor: -webkit-grab; 
@@ -182,6 +183,7 @@ a:hover {
     font-size: 20vw;
     transform: rotate(2deg);
     top: 0;
+    left:-10vw;
     display: none;
     color:red;
         cursor: -webkit-grab; 
@@ -189,7 +191,7 @@ a:hover {
 }
 .consentm {
     position: absolute;
-    font-size: 30vw;
+    font-size: 20vw;
     transform: rotate(2deg);
     top:0;
     left:-10vw;
@@ -205,6 +207,9 @@ a:hover {
     color: white;
 }
 .hoverlback a{
+    color:transparent;
+}
+a.hoverblack {
     color:transparent;
 }
 .thin {
